@@ -195,6 +195,43 @@ body {
 
 /*PRESS COVERAGE*/
 
+.press {
+	padding: 30px 30px 90px 40px;;
+	text-align: center;
+	background-color: #CA1A17;
+}
+
+.press h1 {
+	font-size: 2,5rem;
+	padding-bottom: 5px;
+	color: white;
+}
+
+.press p {
+	color: black;
+	font-size: 20px;
+	padding: 0 0 25px 0;
+}
+
+.press .press-logo li img {
+	opacity: 0.3;
+	padding-bottom: 25px;
+	width: 250px;
+	height: auto;
+}
+
+.press .press-logo li:hover img {
+	opacity:1;
+}
+
+.press .small {
+	width: 200px;
+	height: auto;
+}
+/*.press img {
+	{ -webkit-filter: grayscale(100%); filter: grayscale(100%); };
+}*/
+
 /*END PRESS COVERAGE*/
 
 /*EQUIPE*/
@@ -202,6 +239,22 @@ body {
 /*END EQUIPE*/
 
 /*PARTENAIRES*/
+.partenaires {
+	padding: 30px 30px 90px 40px;
+	text-align: center;
+	background-color: white;
+}
+
+.partenaires h1 {
+	color: #CA1A17;
+	font-size: 2,5rem;
+	padding-bottom: 25px;
+}
+
+.partenaires-logo {
+	margin-top: 15px;
+}
+
 
 /*END PARTENAIRES*/
 
