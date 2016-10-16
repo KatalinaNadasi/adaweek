@@ -258,6 +258,45 @@ body {
 
 /*END PARTENAIRES*/
 
+/*CONTACT*/
+.contacter {
+  padding: 30px 0 100px;
+  text-align: center;
+  background-color: white;
+	font-size: 2,5rem;
+	color: #CA1A17;
+}
+
+.contacter h3 {
+	color: black;
+	background-color: white;
+	font-size: 1,2rem;
+  padding: 15px 0 25px 0;
+}
+
+.contacter .fa {
+	color: #CA1A17;
+}
+
+/*END CONTACT*/
+
 /*FOOTER*/
+
+.footer {
+  background-color: #6F7074; /*gris*/
+  color: white; /*gris clair*/
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer h1 {
+  font-size: 1.5em;
+}
+
+.ending {
+  background-color: #242424;
+  margin-bottom: none;
+  text-align: center;
+}
 
 /*END FOOTER*/
