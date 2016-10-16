@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Lato', sans-serif;
+/*	font-family: 'Bungee Inline', cursive;*/
+}
+
+/*HEADER*/
+.container-fluid {
+	background: #CA1A17;
+}
+
+.countdown {
+	color: white;
+	float: left;
+	left: 70px;
+	position: relative;
+	font-size: 35px;
+	font-family: 'Six Caps', sans-serif;
+	margin-top: 30px;
+}
+
+.menu{
+	margin-right: 5px;
+	font-size: 19px;
+	vertical-align: center;
+	font-family: 'PT Sans', sans-serif;
+  	font-size: 19px;
+}
+	a {
+		color: white !important;
+		text-decoration: none;
+	}
+
+.nav a:hover {
+  		color: #CA1A17 !important;
+  		background-color: white !important;
+  		border-radius: 1px;
+	}
+
+.logo {
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 20px;
+	color:white;
+	width: 300px;
+	height: auto;
+}
+
+.btn-trans{
+	text-align: center;
+	text-decoration: none;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.edition {
+	padding-top: 15px;
+	margin-bottom: 50px;
+	font-family: Arial;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+.socials {
+	color: black;
+	float: right;
+	position: relative;
+	margin-bottom: 15px;
+	margin-right: 15px;
+}
+
+.fa {
+	color: white;
+}
+
+.socials .btn {
+  width: 150px;
+}
+
+.btn-sample:hover{
+  	width: 150px;
+}
+
+.date {
+	background-color: #CA1A17;
+	height: auto;
+	width: 230px;
+}
+
+/*END HEADER*/
+
+/*WHAT*/
+
+.what {
+  padding: 50px 0 100px;
+  text-align: center;
+  background-color: white;
+}
+
+.what h1{
+	padding: 15px;
+	margin-bottom: 45px;
+}
+
+.what a {
+  text-decoration: none;
+}
+
+.what h4 {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.what img {
+  max-width: 100%;
+  box-shadow: 2px 2px 3px grey;
+  width: 100px;
+  height: 100px;
+}
+
+/*MARRAINE*/
+.marraine {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #CA1A17; red
+}
+
+.marraine h1 {
+  font-size: 2,5em;
+  color: white;
+}
+
+.marraine h4 {
+  color: black;
+  font-size: 32px;
+  padding: 0 0 25px 0;
+}
+
+.marraine p {
+	color: white;
+  padding: 0 15px 0 15px;
+  font-size: 1.5rem;
+}
+
+.marraine b {
+  color: black;
+}
+
+.marraine a {
+  text-decoration: none;
+}
+
+.marraineImg {
+  width:100%;
+  height:auto;
+  max-width: 100%;
+  box-shadow: 2px 2px 3px grey;
+}
+
+.blackLetter{
+	color: black;
+}
+
+/*END MARRAINE*/
+
+/*PROGRAMME*/
+.schedule {
+	background-color: white;
+	padding: 45px;
+}
+
+.schedule h1 {
+	color: #CA1A17;
+	text-align: center;
+	margin: 45px 0 45px 0;
+}
+
+.table-hover{
+	background-color: #D0D0D2 !important;
+}
+
+.tableGrey {
+	color: white;
+	background-color: #6F7074;
+}
+
+/*EDITION 2015*/
+
+/*END EDITION 2015*/
+
+/*PRESS COVERAGE*/
+
+/*END PRESS COVERAGE*/
+
+/*EQUIPE*/
+
+/*END EQUIPE*/
+
+/*PARTENAIRES*/
+
+/*END PARTENAIRES*/
+
+/*FOOTER*/
+
+/*END FOOTER*/

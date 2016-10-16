@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+
+body {
+	font-family: Georgia, Helvetica, Arial, sans-serif;
+	width: 100%;
+	margin: 0 auto;
+	background:#CA1A17;
+}
+
+ul, li {
+	display:inline;
+	list-style:none;
+	text-transform:uppercase;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#merci a{
+	font-weight:bold;
+/*	color:#CA1A17;*/
+}
+
+/* CONTENT */
+
+#content {
+	width: 100%;
+	margin: 0 auto;
+	background:white;
+}
+
+#header {
+	background: #CA1A17;
+	padding-bottom: 60px;
+}
+
+.title{
+	font-family: 'Bungee Inline', cursive;
+}
+
+.colleft {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	font-size:14px;
+	
+}
+
+.col {
+	width: 210px;
+	float:left;
+	margin-right:10px;
+	font-size: 14px;
+	margin-top: 60px;
+}
+
+.countdown {
+	color: white;
+	float: left;
+	left: 70px;
+	position: relative;
+	font-size: 35px;
+	font-family: 'Six Caps', sans-serif;
+	margin-top: 30px;
+}
+
+.logo {
+text-align: center;
+clear: both;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.socialnet {
+float: right;
+	right: 65px;
+	position: relative;
+}
+
+.socialnet img {
+	padding-right: 5px;
+	width: 30px;
+	height: auto;
+}
+
+.imgcredits {
+float: left;
+	left: 70px;
+	position: relative;
+		color: white;
+font-family: 'Six Caps', sans-serif;
+font-size: 40px;
+}
+h1 {
+font-family: 'Six Caps', sans-serif;
+text-transform: uppercase;
+font-size: 102px;
+line-height: 102px; 
+color: #CA1A17;
+font-weight:normal;}
+/* MENU */ 
+
+h2 {
+	color: black;
+margin-top: -50px;
+font-family: 'Six Caps', sans-serif;
+font-size: 40px;
+font-weight:normal;
+}
+
+ul, li a {
+	color: white;
+}
+
+.menu {
+	float: right;
+	right: 40px;
+	position: relative;
+	font-size: 12px;
+	margin-top: 30px;
+	font-family: 'Six Caps', sans-serif;
+font-size: 35px;
+}
+
+.menu li {
+	margin-right: 30px;
+}
+
+.exerg {
+	width: 430px;
+margin-left: 0px;
+border-left: 3px solid #CA1A17;
+padding-left: 20px;
+position:relative;
+top: 30px;
+font-style: italic;
+color: #CA1A17;
+}
+
+#apropos {
+
+	margin-left: 20px;
+	width: 980px;
+margin: 0 auto;
+}
+#merci {
+	margin-left: 20px;
+	width: 980px;
+margin: 0 auto;
+}
+
+#laspationaute {
+	margin-left: 20px;
+	width: 980px;
+margin: 0 auto;
+}
+
+#lequipe {
+	margin-left: 20px;
+	width: 980px;
+margin: 0 auto;
+}
+
+#contact {
+	margin-left: 20px;
+	width: 980px;
+margin: 0 auto;
+}
+
+
+#partenaires {
+	margin-left: 20px;
+	width: 980px;
+margin: 0 auto;
+}
+
+#footer {
+	margin-left: 20px;
+	width: 980px;
+margin: 0 auto;
+}
+
+
+
+
+.imgbig {
+	margin-top: 20px;
+}
+
+.paxfich {
+	width: 300px;
+	float:left;
+	padding-right:20px;
+}
+
+.paxfich img{
+	width: 300px;
+}
+
+#partenaires img {
+width:120px;
+margin-right: 15px;
+}
+
+#hotfromtheweb img {
+width:120px;
+padding-bottom:60px;
+margin-right: 15px;
+}
+
+h4 {
+	font-family: 'Six Caps', sans-serif;
+font-size:30px;
+font-weight:normal;
+}
+
+h5 {
+	font-weight:normal;
+	font-size:14px;
+}
+
+h5 span {
+	font-style:italic;
+}
+
+img { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+
+.colleft img {
+	width:300px;
+}
+
+h3 {
+	font-weight: normal; 
+	font-style: italic;
+}
