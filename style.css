@@ -250,7 +250,12 @@ body {
 
 .equipe img {
 	width: 120px;
-	height: auto;
+	height: 120px;
+}
+
+#resize_img {
+	width: 120px;
+	height: 130px;
 }
 
 /*END EQUIPE*/
