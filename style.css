@@ -29,10 +29,15 @@ body {
 	vertical-align: center;
 }
 	a {
-		color: #CA1A17 !important;
+		color: #CA1A17;
 		text-decoration: none;
 	}
 
+	.redBanner {
+		height: 85px;
+		background-color: #CA1A17;
+	}
+	
 .nav a:hover {
   		color: black !important;
   		background-color: white !important;
@@ -106,38 +111,37 @@ body {
 
 /*WHAT*/
 
-.what {
-  padding: 50px 0 100px;
+.bloc {
+  padding: 45px 0 50px;
   text-align: center;
-  background-color: white;
 }
 
-.what h1{
+.bloc h1{
 	padding: 15px;
 }
 
-.what h3{
+.bloc h3{
 	font-size: 36px;
 	color: #CA1A17;
 	font-weight: bold;
 }
 
-.what h4 {
+.bloc h4 {
 	color: #CA1A17;
 	font-size: 2rem;
 }
 
-.what h5{
+.bloc h5{
 	font-family: 'Bungee Inline', cursive;
 }
 
-.what a {
+.bloc a {
   text-decoration: none;
 }
 
 .what_bloc{
-margin-top: 20px;
-font-size: 17px;
+	margin-top: 20px;
+	font-size: 17px;
 
 }
 
@@ -149,34 +153,44 @@ font-size: 17px;
 }
 
 /*ADA LOVELACE*/
-.ada_lovelace
+.ada_lovelace img {
+	width: 120px;
+	height: 120px;
+}
+
+.ada_lovelace a {
+	color: black;
+}
+
+.text_style p {
+	font-size: 18px;
+}
 
 /*MARRAINE*/
 .marraine {
   padding: 50px 0;
   text-align: center;
-  background-color: #CA1A17; red
 }
 
 .marraine h1 {
   font-size: 2,5em;
-  color: white;
+  color: black;
 }
 
 .marraine h4 {
-  color: black;
+  color: #CA1A17;
   font-size: 32px;
   padding: 0 0 25px 0;
 }
 
 .marraine p {
-	color: white;
+	color: black;
   padding: 0 15px 0 15px;
   font-size: 1.5rem;
 }
 
 .marraine b {
-  color: black;
+  color: #CA1A17;
 }
 
 .marraine a {
@@ -287,15 +301,6 @@ font-size: 17px;
 }
 
 /*END EQUIPE*/
-
-.redBanner1{
-	height: 185px;
-	background-color: #CA1A17;
-}
-.redBanner {
-	height: 85px;
-	background-color: #CA1A17;
-}
 
 /*PARTENAIRES*/
 .partenaires {
