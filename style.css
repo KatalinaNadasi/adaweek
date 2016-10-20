@@ -4,7 +4,6 @@
 body {
 	font-family: 'Lato', sans-serif;
 	/*font-family: sans-serif;*/
-/*	font-family: 'Bungee Inline', cursive;*/
 }
 
 /*HEADER*/
@@ -45,6 +44,7 @@ body {
 	padding: 10px;
 	margin: 0 auto;
 	margin-top: 20px;
+	margin-bottom: 15px;
 	color:white;
 	width: 300px;
 	height: auto;
@@ -76,10 +76,6 @@ body {
 	margin-right: 15px;
 }
 
-.border {
-	clear:both;
-	border-bottom: 1px solid #CA1A17;
-}
 
 .fa {
 	color: #CA1A17;
@@ -88,6 +84,13 @@ body {
 .socials .btn {
   width: 150px;
 }
+
+.btn-danger{
+	background-color: white !important;
+	color: #CA1A17 !important;
+	border-color: #CA1A17 !important;
+}
+
 
 .btn-sample:hover{
   	width: 150px;
@@ -111,15 +114,31 @@ body {
 
 .what h1{
 	padding: 15px;
-	margin-bottom: 45px;
+}
+
+.what h3{
+	font-size: 36px;
+	color: #CA1A17;
+	font-weight: bold;
+}
+
+.what h4 {
+	color: #CA1A17;
+	font-size: 2rem;
+}
+
+.what h5{
+	font-family: 'Bungee Inline', cursive;
 }
 
 .what a {
   text-decoration: none;
 }
 
-.what h4 {
-	font-family: 'PT Sans', sans-serif;
+.what_bloc{
+margin-top: 20px;
+font-size: 17px;
+
 }
 
 .what img {
@@ -128,6 +147,9 @@ body {
   width: 100px;
   height: 100px;
 }
+
+/*ADA LOVELACE*/
+.ada_lovelace
 
 /*MARRAINE*/
 .marraine {
@@ -265,6 +287,11 @@ body {
 }
 
 /*END EQUIPE*/
+
+.redBanner1{
+	height: 185px;
+	background-color: #CA1A17;
+}
 .redBanner {
 	height: 85px;
 	background-color: #CA1A17;
