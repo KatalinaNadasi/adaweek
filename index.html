@@ -1,286 +1,430 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <head>
+        <meta charset="UTF-8">
 
-<link rel="icon"
-      type="image/png"
-      href="http://adaweek.fr/favicon.png">
-<link rel="stylesheet" type="text/css" href="adastyles.css">
-<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Fjalla+One|Six+Caps' rel='stylesheet' type='text/css'> -->
+        <!--     use the latest version of IE -->
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- using IE8 -->
+        <!--     [if lt IE 9] -->
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <!--     [endif] -->
 
-<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Lato" rel="stylesheet">
-<meta charset="UTF-8">
-<meta property="og:image" content="http://www.adaweek.fr/img/insert-facebook.jpg" />
-<title>AdaWeek - Coming up...</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<script src="js/jquery.js" type="text/javascript"></script><!-- Insertion de la bibliotheque jQuery -->
-<script type="text/javascript" src="js/localscroll/jquery.localscroll.js"></script>
-<script type="text/javascript" src="js/localscroll/jquery.scrollTo.js"></script>
-<script type="text/javascript" src="js/lancement.js"></script><!-- permet le lancement de la fonction de scroll -->
+        <link rel="icon"
+            type="image/png"
+            href="http://adaweek.fr/favicon.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Fjalla+One|Six+Caps' rel='stylesheet' type='text/css'> -->
 
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Lato|PT+Sans" rel="stylesheet">
+
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+        <meta property="og:image" content="http://www.adaweek.fr/img/insert-facebook.jpg" />
+        <title>AdaWeek</title>
+
+        <script src="js/jquery.js" type="text/javascript"></script><!-- Insertion de la bibliotheque jQuery -->
+        <script type="text/javascript" src="js/localscroll/jquery.localscroll.js"></script>
+        <script type="text/javascript" src="js/localscroll/jquery.scrollTo.js"></script>
+        <script type="text/javascript" src="js/lancement.js"></script><!-- permet le lancement de la fonction de scroll -->
 
 
 </head>
 
 <body>
 
+<!-- HEADER -->
+<div class="container-fluid">
+  <div class="header">
+    <div class="row banner">
+      <ul class="nav navbar-nav navbar-left">
+        <!-- <li><a href="#what">L'Adaweek</a></li>
+        <li><a href="#marraine">Marraine 2016</a></li>
+        <li><a href="#programme">Programme</a></li>
+        <li><a href="#press">Presse</a></li>
+        <li><a href="#equipe">L'équipe</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#partenaires">Partenaires</a></li> -->
+        <li><a href="edition2015.html">EDITION 2015</a></li>
+      </ul>
+
+    <span><img class="date pull-right" src="img_home/date.jpg"></li></span>
 
 
-<div id="content">
-
-<div id="header">
-    <div class="countdown">
-<script>
-var before=""
-var current=""
-var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
-
-function countdown(yr,m,d){
-var today=new Date()
-var todayy=today.getYear()
-if (todayy < 1000)
-todayy+=1900
-var todaym=today.getMonth()
-var todayd=today.getDate()
-var todaystring=montharray[todaym]+" "+todayd+", "+todayy
-var futurestring=montharray[m-1]+" "+d+", "+yr
-var difference=(Math.round((Date.parse(futurestring)-Date.parse(todaystring))/(24*60*60*1000))*1)
-
-//console.log(difference);
-
-if (/*difference==0 || */difference>0){
-	console.log(difference);
-//	document.write(difference)
-//	document.write("J- "+difference+"  "+before)
-}/* else if (difference>0){
-	console.log(difference);
-	document.write("J- "+difference+"  "+before)
-}*/
-
-}
-//enter the count down date using the format year/month/day
-countdown(2016,10,10)
-</script>
-    </div>
-    <div class="menu">
-        <ul>
-			<li><a href="edition2015.html">Edition 2015</a></li>
-        <!--<li><a href="#apropos">À propos</a></li>
-        <li><a href="#laspationaute">La spationaute</a></li>
-		<li><a href="#lequipe">L'équipe</a></li>
-        <li><a href="#partenaires">Partenaires</a></li>
-		<li><a href="#newsletter">Newsletter</a></li>-->
-		<!--<li><a href="#hotfromtheweb">HOT from the web</a></li>
-        <li><a href="#contact">Contact</a></li>-->
+    <div class="logo">
+      <img class="logo img-responsive" src="img_home/adaweek.png" alt="adaweek"/></div></div><br>
+      <ul class="list-inline">
+          <li><a href="https://www.eventbrite.fr/e/billets-adaweek-travail-emploi-et-entrepreneuriat-28623939975" target="_blank" class="btn btn-trans btn-lg center-block" role="button">JE M'INSCRIS</a></li>
       </ul>
     </div>
-    <div class="logo">
-    <img src="img/logo.png" width="300" height="auto" alt="adaweek"/>
-    <div  style="border: 1px solid white;
-width: 10%;
-text-align: center;
-padding: 10px;
-margin: 0 auto;
-margin-top: 20px;
-color:white;
-font-family: Arial;"><span style="text-transform: uppercase;">édition 2016</span><br/>
-<!--<a href="http://www.eventbrite.fr/o/association-adaweek-8434392334" target="_blank">&Eacute;dition 2015</a>--></div></div>
-<!--    <div class="imgcredits">
-    10 - 16 / 10 / 2016
-    </div>-->
-    <div class="socialnet">
-        <a href="http://www.linkedin.com/company/adaweek" target="_blank"><img src="img/linkedin.png" width="90" height="90" alt=""/>
-        </a>
-        <a href="http://www.facebook.com/AdaWeek" target="_blank"><img src="img/fbook.png" width="90" height="90" alt=""/>
-        </a>
-        <a href="http://twitter.com/AdaWeek" target="_blank"> <img src="img/twitter.png" width="90" height="90" alt=""/></a>
+
+      <div class="socials push-right">
+        <ul class="list-inline">
+          <li><a href="http://www.linkedin.com/company/adaweek" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href="http://www.facebook.com/AdaWeek" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href="http://twitter.com/AdaWeek" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <div class="border">
+      </div>
+
     </div>
+  </div>
 </div>
 
-<div id="apropos" style="clear:both;">
-    <div class="colleft">
-    <h1 style="margin-top: 54px;">Qu'est ce que l'Ada Week?</h1>
-    <h2>Un forum du 12 au 18 octobre 2015 en Ile de France</h2>
-    <h3>Science, Technologie, Ingénierie et Mathématiques, une opportunité pour les femmes.</h3>
-    </div>
 
-    <div class="col">
-Développement durable, transition énergétique, robotique, intelligence artificielle, mégadonnées & TICS : <strong>un nouveau monde est en train de se construire </strong>sur fond de transition numérique, énergétique & industrielle.</br>
-Lʼinformatique, lʼingénierie, la recherche scientifique et les mathématiques, sont les disciplines fondamentales sur lesquelles repose cette (r)évolution. Elles ont une importance capitale dans le sens où elles impactent et modifient à grande vitesse nos sociétés et nos économies.</br></br>
-<strong>Quelle place pour les femmes dans la construction de ce nouveau monde? Qui sont les femmes actives dans ces domaines? Que font-elles? Pourquoi ont-elles choisi ces voies?</strong></br>
-Comment se fait-il que les femmes soient sous-représentées dans les STEM? Sur quoi repose ce phénomène? Pourquoi cela pose-t-il un problème? Comment y remédier?</br></br>
-Autant de questions que nous allons aborder lors de lʼAdaWeek.
+<!-- END HEADER -->
 
-    </div>
+<!-- WHAT -->
 
-    <div class="col">
+<div class="what" id="what">
+    <div class="container">
 
-Pour ce faire, nous avons pensé<strong> une programmation hybride en 3 volets</strong> #Ateliers #Conférences #TablesRondes, articulée autour de 3 axes #Education, #Emploi #Entrepreneuriat.</br></br>
-Ce format nous permet de :</br>
-- proposer des activités à destination du public féminin au sens large, des petites filles aux seniors, au travers dʼinitiations grand public et du traitement de sujets plus techniques.</br>
-- donner de la visibilité à des personnalités féminines remarquables dans ces secteurs, et ainsi favoriser leur reconnaissance.</br>
-- participer au décloisonnement des métiers STEM</br></br>
-Le but étant dʼ<strong>adresser de manière ludique et créative les différents obstacles auxquels sont confrontées les femmes </strong>dans l'appropriation et la pratique des STEM.</br>
-        <div class="imgbig">
-          <img src="img/home.gif" width="390" height="auto" alt=""/>
+
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+            <h1><strong>QU'EST CE QUE L' ADAWEEK ?</strong></h1>
         </div>
-    </div>
-    <div class="exerg" style="clear:both;">
-        Il était une fois...
-          Ada Lovelace -
-          Le premier programmeur
-          informatique était une femme / Un article de Philothée Gaymard pour Usbek & Rica<a href="usbek_et_rica.pdf" style="text-decoration: underline;" > À lire</a>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6">
+          <h3>OPEN STEM'S</h3>
+          <blockquote><p>L'Adaweek est un forum qui s'interroge sur la place pour les femmes dans les STEMS (secteurs de lʼinformatique, lʼingénierie, la recherche scientifique et les mathématiques) en 2016. Comment se fait-il que les femmes soient sous-représentées dans les STEM? Sur quoi repose ce phénomène ? Pourquoi cela pose-t-il un problème? Comment y remédier ?</p></blockquote>
         </div>
 
 
-<div id="apropossuite">
-<h1 class="middletitle">Au programme
-</h1>
-<div><a id="sched-embed" data-sched-sidebar="no" href="http://adaweek2015a.sched.org/">View the AdaWeek mobile app</a><script type="text/javascript" src="http://adaweek2015a.sched.org/js/embed.js"></script></div>
+        <div class="col-lg-6 col-md-6">
+            <a href="http://www.adaweek.fr/usbek_et_rica.pdf" target="_blank">
+            <img src="img_home/ada.jpg" class="img-circle">
+            </a>
 
-<!--<img src="img/programmetbc.png" width="980" height="auto" alt=""/>-->
-</div>
-</div>
-<div id='laspationaute' style="clear:both;">
-    <div class="colleft">
-    <h1 style="margin-top: 54px;">Claudie Haigneré</h1>
-    <h2>Marraine de la première édition</h2>
-    Médecin, rhumatologue, spécialiste en méde<br>-cine aéronautique et docteure en neurosciences, Claudie Haigneré fut la première femme française à aller dans
-    l’espace.
-    </div>
-<div class="col" style="width:300px">
-    Elle travailla d’abord en tant que médecin rhumatologue à l’hôpital Cochin, puis au CNRS comme chercheuse dans le Laboratoire de Physiologie neurosensorielle
-    sur l’adaptation des systèmes moteurs et cognitifs en apesanteur.<br><br>
-    C’est en 1985 qu’elle embrasse sa carrière spatiale. Le CNES (Centre national d’études spatiales) la choisie comme candidate astronaute française. Elle y est
-    de 1990 à 1992, responsable des programmes français et internationaux de physiologie et de médecine spatiale à la Division Sciences<br>de la Vie. Par la suite, Claudie Haigneré prend part à de nombreuses missions spatiales franco-russes : Antarès où elle est responsable de la coordination scientifique des expériences des sciences de la vie ; Altair pour laquelle elle est désignée spationaute suppléante et responsable de la surveillance des expériences biomédicales au sein de l’équipe au sol dans le Centre de contrôle des missions basé près de Moscou <a href="claudie-haignere-bio.pdf" style="color: #CA1A17; text-decoration: underline;" >[...]</a>
-</div>
-<div class="col" style="width:300px">
-    <div class="imgbig" style="margin-top:0px">
-      <img src="img/haigne10.jpg" width="300" height="auto" alt=""/>
-    </div>
-</div>
-</div>
-<div id="lequipe" style="clear:both;">
-<h1 class="middletitle">L'équipe
-</h1>
-<div style="clear:both">
- <div class="paxfich">
-<img src="img/photos/charlottedebroglie.jpg" width="390" height="auto" alt=""/>     <h4>Charlotte de Broglie</h4>
-    <h5><span>Coordinatrice du Projet</span>
-  <br>
-Chef de projet @ La Fonderie,
-Agence Numérique d'Île-de-France</h5>
-    </div>
+        <blockquote>
+            <p>Le premier programmeur informatique était une femme /</br> Un article de Philothée Gaymard pour Usbek et Rica</p>
+        </blockquote>
+      </div>
 
-    <div class="paxfich">
-<img src="img/photos/mehdibenchoufi.jpg" width="390" height="auto" alt=""/>     <h4>Mehdi Benchoufi</h4>
-    <h5><span>Coordinateur Scientifique
-Éducation & Mathématiques</span>
-  <br>
-Mathématicien
-Président du Think Tank Club Jade</h5>
-    </div>
-     <div class="paxfich">
-<img src="img/photos/sarahjoe.jpg" width="390" height="auto" alt=""/>     <h4>Sarah Joe</h4>
-    <h5><span>Directrice Artistique du Projet</span>
-  <br>
-Artiste Polytechnique, Ingénieure Artistique
-</h5>
-    </div>
-
-</div>
-<div style="clear:both;">
-    <div class="paxfich">
-<img src="img/photos/thomaslandrain.jpeg" width="390" height="auto" alt=""/>     <h4>Thomas Landrain</h4>
-    <h5><span>Coordinateur Scientifique
-Recherche & Entrepreneuriat Scientifique
- </span>
-  <br>
-
-Biologiste
-Fondateur de la Paillasse</h5>
-    </div>
-    <div class="paxfich">
-<img src="img/photos/ozanne.jpg" width="390" height="auto" alt=""/>     <h4>Ozanne Tauvel-Mocquet</h4>
-    <h5><span>Coordinatrice Événements & Médias
-</span>
-  <br>
-
-Stagiaire @ Club Jade Think Tank</h5>
-    </div>
-    <div class="paxfich">
-<img src="img/photos/gauthierdeletombe.jpg" width="390" height="auto" alt=""/>     <h4>Gauthier Deletombe</h4>
-    <h5><span>Coordinateur Événements & Médias
-</span>
-  <br>
-
-Stagiaire @ Club Jade Think Tank</h5>
-    </div>
- </div>
-</div>
-
-<div id="partenaires" style="clear:both;">
-<h1 class="middletitle">Partenaires
-</h1>
-<img src="img/partners/logo-la-fonderie.png" width="945" height="auto" alt=""/> <img src="img/partners/42_digital_logo_dark_blue_sign_A.png" width="1888" height="auto" alt=""/>
-<img src="img/partners/400px-Wikimedia_Foundation_RGB_logo_with_text.svg.png" width="400" height="auto" alt=""/>
-<img src="img/partners/1465360_700244606654937_637995034_n.png" width="160" height="auto" alt=""/>
-<img src="img/partners/wax.jpg" width="528" height="auto" alt=""/> <img src="img/partners/b6b78b59a0683ab26191e9afe28c19a41b1f09ee_original.jpg" width="4000" height="auto" alt=""/>
-<img src="img/partners/Capturedecran2015-06-17a12.15.21.png" width="1259" height="auto" alt=""/>
-<img src="img/partners/Capturedecran2015-06-17a12.16.00.png" width="573" height="auto" alt=""/>
-<img src="img/partners/logo_animath.jpg" width="2075" height="auto" alt=""/>
-<img src="img/partners/giw.png" width="221" height="auto" alt=""/>
-<img src="img/partners/gamelier2.png" width="475" height="auto" alt=""/><img src="img/partners/Finge.jpg" width="452" height="auto" alt=""/>
-<img src="img/partners/logo-paillasse-menu.png" width="180" height="auto" alt=""/>
-<img src="img/partners/4ideas_logo_small.png" width="136" height="auto" alt=""/>
-<img src="img/partners/Logo-Social-Builder-refait-sans-baseline1-e1410307989797.png" width="204" height="auto" alt=""/>
-<img src="img/partners/makery-logo-baseline.png.pagespeed.ce.-EfBG6TW3_.png" width="400" height="auto" alt=""/>
-<img src="img/partners/Logo_association_femmes_et_mathematiques.jpg" width="611" height="auto" alt=""/>
-<img src="img/partners/logo-sosciences.png" width="300" height="auto" alt=""/><img src="img/partners/42_Final_sigle_seul_copie.png" width="573" height="auto" alt=""/><img src="img/partners/change_org.png" width="200" height="auto" alt=""/><img src="img/partners/LOGO_FONDATION_LOREAL_13-07-15-300x284.jpg" width="300" height="auto" alt=""/><img src="img/partners/logo_footer.png" width="300" height="auto" alt=""/><img src="img/partners/femmessciences.jpg" width="600" height="auto" alt=""/><img src="img/partners/logo-hubertine_web.jpg" width="800" height="auto" alt=""/><img src="img/partners/logo-msw.jpg" width="1200" height="auto" alt=""/><img src="img/partners/criteo.png" width="370" height="auto" alt=""/><img src="img/partners/logo_ekluz.jpg" width="400" height="auto" alt=""/><img src="img/partners/nouvellesnews.png" width="370" height="auto" alt=""/><img src="img/partners/logo-gaite-lyrique.png" width="370" height="auto" alt=""/><!--<img src="img/partners/OCDE_logo.svg.png" width="1280" height="auto" alt=""/>-->
-<img src="img/partners/logo_cap.jpg" width="300" height="auto" alt=""/><img src="img/partners/gs_sd.jpg" width="300" height="auto" alt=""/>
-</div>
-<div id="hotfromtheweb" style="clear:both;">
-    <h1 class="middletitle">HOT from the WEB
-    </h1>
-    <a href="http://www.atelier.net/trends/articles/femmes-nouvelles-technologies-importance-de-education_438084" style="font-weight:normal;" target="_blank"><img src="img/medias/atelier_bnp.png" alt=""></a>
-    <a href="http://www.sciencesetavenir.fr/high-tech/informatique/20151012.OBS7492/femmes-et-sciences-c-est-l-adaweek.html" style="font-weight:normal;" target="_blank"><img src="img/medias/sciences_et_avenir.jpg" alt=""></a>
-    <a href="http://www.lefigaro.fr/secteur/high-tech/2015/10/12/32001-20151012ARTFIG00122-l-adaweek-la-premiere-semaine-dediee-aux-femmes-dans-le-numerique-et-les-sciences.php" style="font-weight:normal;" target="_blank"><img src="img/medias/figaro.jpg" alt=""></a>
-    <a href="http://www.alterecoplus.fr/societe/a-quoi-servent-les-evenements-et-reseaux-professionnels-de-femmes-201510161545-00002333.html" style="font-weight:normal;" target="_blank"><img src="img/medias/alternatives-economiques.png" alt=""></a>
-    <a href="http://www.sciencesetavenir.fr/high-tech/informatique/20151015.OBS7728/video-ada-week-pourquoi-elles-ont-choisi-de-prendre-le-virage-du-numerique.html" style="font-weight:normal;" target="_blank"><img src="img/medias/sciences_et_avenir.jpg" alt=""></a>
-    <a href="http://www.terrafemina.com/article/ces-7-femmes-incroyables-ont-marque-l-histoire-des-sciences_a290481/1" style="font-weight:normal;" target="_blank"><img src="img/medias/terrafemina.png" alt=""></a>
-    <a href="http://madame.lefigaro.fr/societe/elles-ont-change-le-monde-et-vous-ne-les-connaissez-pas-141015-98901" style="font-weight:normal;" target="_blank"><img src="img/medias/logo_madame_figaro.jpg" alt=""></a>
-    <a href="http://www.lefigaro.fr/secteur/high-tech/2015/10/15/32001-20151015ARTFIG00170-dix-femmes-du-numerique-a-suivre-sur-twitter.php" style="font-weight:normal;" target="_blank"><img src="img/medias/figaro.jpg" alt=""></a>
-    <a href="http://www.frenchweb.fr/insiders-one-pitch-a-paris/210516" style="font-weight:normal;" target="_blank"><img src="img/medias/frenchweb.jpg" alt=""></a>
-    <a href="http://www.lesnouvellesnews.fr/adaweek-pour-des-femmes-aux-manettes-dans-les-stem/" style="font-weight:normal;" target="_blank"><img src="img/partners/nouvellesnews.png" alt=""></a>
-    <a href="http://www.animafac.net/actualites/portait-gabrielle-developpeuse-intervenante-ladaweek/" style="font-weight:normal;" target="_blank"><img src="img/partners/Capturedecran2015-06-17a12.15.21.png" alt=""></a>
-    <a href="http://www.cultureaccess.com/2015/10/l-adaweek-s-acheve-aujourd-hui-notre-top-3-des-femmes-scientifiques-d-exception.html" style="font-weight:normal;" target="_blank"><img src="img/medias/cultureaccess.png" alt=""></a>
-    <a href="http://www.animafac.net/actualites/portait-gabrielle-developpeuse-intervenante-ladaweek/" target="_blank"><img src="img/partners/b6b78b59a0683ab26191e9afe28c19a41b1f09ee_original.jpg" width="4000" height="auto" alt=""></a>
-    <a href="http://www.realestateofthemind.fr/2015/10/21/ada-week-stem-sciences-conferences/" target="_blank"><img src="img/partners/test72.png" width="4000" height="auto" alt=""></a>
-</div>
-<div id="contact" style="clear:both;">
-<h1 class="middletitle">Contact
-</h1>
- <div class="colleft">
-Vous souhaitez devenir partenaires?<br/>Obtenir plus d'informations sur l'événement?<br/>Ou simplement nous faire coucou?
-    </div>
-     <div class="colleft">
-<strong>Contact</strong><br/>
-<a href="mailto:/contact@adaweek.fr" style="text-decoration:underline;">contact@adaweek.fr</a>
-<br/><br/><strong>Dossier de presse</strong><br/>
-<a href="adaweek-presse.zip" style="text-decoration:underline;">Télécharger</a>
+      </div>
 
     </div>
+  </div>
 
+  <!-- MARRAINE -->
+  <div class="marraine" id="marraine">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <h1><strong>MARRAINE DE LA 2e EDITION</strong></h1>
+              <h4><b>Véronique Torner</b></h4>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 col-sm-3">
+            <img src="img_home/marraine.jpg" class="marraineImg img-responsive"></br></br>
+            <blockquote class="blackLetter">Co-fondatrice </br>et Co-Présidente d'alter way</blockquote>
+          </div>
+
+          <div class="col-md-9 text-justify">
+            <p>Diplômée de CPE Lyon,
+              Véronique Torner démarre son parcours entrepreneurial en 1998 avec la co-création de Black Orange,
+              une startup e-commerce qui sera cédée aux Editions Atlas en 2000.</br>
+              Elle prend la direction générale de <b>Masterline Net Solutions</b>
+              puis de <b>Masterline</b> pendant 5 ans aux côtés de Philippe Montargès, son fondateur.
+              Masterline sera cédée à Alti fin 2005. </br>
+              Philippe Montargès et Véronique Torner co-fondent en 2006, <b>alter way</b>,
+              ESN spécialiste du web avec des solutions Open Source. </br>
+              Véronique Torner est présidente de <b>l’Open CIO Summit</b>,
+              le premier sommet de l’Open Source « par les DSI pour les DSI ». </br>
+              Elle intervient régulièrement auprès des décideurs SI pour les accompagner dans leur réflexion stratégique
+              et la mise en œuvre de projets Open Source et a co-écrit le livre blanc
+              « Etes-vous prêt pour l’innovation ? Les vrais enjeux de l’Open Source pour les DSI ». </br>
+              Elle participe également aux travaux de réflexion d'un réseau intitulé « Laboratoire d'innovation managériale ». </br>
+              Véronique Torner a été élue en juin 2013 administratrice au <b>Syntec Numérique</b>.
+              A ce titre, elle préside la commission PME et régions du Syntec Numérique et est administratrice de Pacte PME.
+              Elle a reçu le prix <b>"Femme du Numérique"</b> de la Tribune Women's Awards 2015 et a été la présidente
+              du Comité de programme du <b>Paris Open Source Summit 2015</b>
+              (issu du rapprochement de Open World Forum et de Solution Linux).
+              Par le décret du Président de la République du 8 février 2016, Véronique Torner a été nommée membre
+              du <b>Conseil National du Numérique</b>. Depuis juin 2016, elle est également membre du conseil
+              d'orientation de <b>l'Institut Friedland</b> et membre du conseil d'administration de Monde Nouveau
+              - fonds de dotation de CPE Lyon.</p>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  <!-- END MARRAINE -->
+
+  <!-- SCHEDULE -->
+  <div class="schedule" id="programme">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>LE PROGRAMME
+          </h1>
+          <table class="table table-bordered table-striped table-sm table-hover table-responsive">
+            <thead>
+              <tr>
+                <th colspan="12" class="text-center tableGrey">
+                Journée 1
+                </th>
+              </tr>
+            </thead>
+            <thead>
+              <tr>
+                <th>Horaire</th>
+                <th>Sujet</th>
+                <th>Intervenante</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">10h/11h</th>
+                <td>Ouverture de l'édition 2016/Adaweek Open STEM's</td>
+                <td>Véronique Torner</td>
+              </tr>
+              <tr>
+                <th scope="row">11h/11h45</th>
+                <td>L'Open source, un secteur d'avenir en manque de talents !</td>
+                <td>Nadia El-Imam</td>
+              </tr>
+              <tr>
+                <th scope="row">11h45/12h30</th>
+                <td>Entreneu•rs•se, pourquoi et comment se saisir des outils et de la culture de l’Open pour augmenter votre projet entrepreunarial ? </td>
+                <td>Céline Bondard</td>
+              </tr>
+              <tr>
+                <th scope="row">12h30/14h</th>
+                <td>Biais de genre dans le monde du travail : barrière à l’entrée, obstacles et plafond de verre, quelles mesures prendre pour s’en affranchir ?</td>
+                <td>WomenUp</td>
+              </tr>
+              <tr>
+                <th scope="row">14h/14h45</th>
+                <td>Monter en compétences, formation continue et reconversion : comment se saisir de l’open knowledge ?</td>
+                <td>CapDigital</td>
+              </tr>
+              <tr>
+                <th scope="row">14h45/15h30</th>
+                <td>Open Source : créateur de valeur pour les entreprises. Pourquoi et comment les organismes privés investissent ce secteur ?</td>
+                <td>Jean-Baptiste Soufron</td>
+              </tr>
+              <tr>
+                <th colspan="12" class="text-center tableGrey">
+                BREAK
+                </th>
+              </tr>
+              <tr>
+                <th scope="row">15h45/16h30</th>
+                <td>Open innovation: quels sont les fondamentaux de cette pratique, comment et pourquoi les entreprises y ont recours, dans quel but?</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">16h30/18h</th>
+                <td>Atelier pratiques</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th colspan="12" class="text-center tableGrey">
+                BREAK
+                </th>
+              </tr>
+              <tr>
+                <th scope="row">18h</th>
+                <td>Table-ronde : Futur du travail: open innovation, open source, entreprise libérée,  dans quelle mesure ces nouveaux modes d’organisation et de production vont-ils façonner l’entreprise de demain ? </td>
+                <td>Isaac Getz, Diana Filippova, Nicolas Colin, Margaux Pelen, Chloé Bonnet, Véronique Torner</td>
+              </tr>
+              <tr>
+                <th colspan="12" class="text-center tableGrey">
+                Cocktail et networking
+                </th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ANNEE PRECEDENTE -->
+
+  <!-- PRESS -->
+
+  <div class="press" id="press">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-12">
+          <h1>LA PRESSE EN PARLE</h1>
+            <p>Les principaux site sur lesquels nous sommes mentionnés</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <ul class="press-logo list-inline">
+            <li class="col-md-3"><a href="http://www.sciencesetavenir.fr/high-tech/informatique/femmes-et-sciences-c-est-l-adaweek_103683" target="_blank"><img class="img-responsive" src="img_home/logos/sciences.jpg"/></a></li>
+            <li class="col-md-3"><a href="http://www.lefigaro.fr/secteur/high-tech/2015/10/12/32001-20151012ARTFIG00122-l-adaweek-la-premiere-semaine-dediee-aux-femmes-dans-le-numerique-et-les-sciences.php" target="_blank"><img class="img-responsive" src="img_home/logos/figaro.jpg"/></a></li>
+            <li class="col-md-3"><a href="http://www.terrafemina.com/article/ces-7-femmes-incroyables-ont-marque-l-histoire-des-sciences_a290481/1" target="_blank"><img class="img-responsive" src="img_home/logos/terrafemina.jpg"/></a></li>
+            <li class="col-md-3"><a href="https://www.deuxiemepage.fr/2015/10/21/ada-week-stem-sciences-conferences/" target="_blank"><img class="img-responsive" src="img_home/logos/iletait.jpg"/></a></li>
+          </ul>
+        </div>
+        <div class="col-md-12">
+          <ul class="press-logo list-inline">
+            <li class="col-md-3"><a href="http://madame.lefigaro.fr/societe/elles-ont-change-le-monde-et-vous-ne-les-connaissez-pas-141015-98901" target="_blank"><img class="img-responsive" src="img_home/logos/madame.jpg"/></a></li>
+            <li class="col-md-3"><a href="http://www.sciencesetavenir.fr/high-tech/informatique/video-ada-week-pourquoi-elles-ont-choisi-de-prendre-le-virage-du-numerique_103684" target="_blank"><img class="img-responsive" src="img_home/logos/sciences.jpg"/></a></li>
+            <li class="col-md-3"><a href="http://www.alterecoplus.fr/a-quoi-servent-les-evenements-et-reseaux-professionnels-de-femmes" target="_blank"><img class="img-responsive" src="img_home/logos/alternatives.jpg"/></a></li>
+            <li class="col-md-3"><a href="http://www.frenchweb.fr/insiders-one-pitch-a-paris/210516" target="_blank"><img class="img-responsive" src="img_home/logos/frenchweb.jpg"/></a></li>
+          </ul>
+        </div>
+        <div class="col-md-12">
+          <ul class="press-logo list-inline">
+            <li class="col-md-3"><a href="http://www.lesnouvellesnews.fr/adaweek-pour-des-femmes-aux-manettes-dans-les-stem/"><img class="img-responsive" src="img_home/logos/nouvellesnews.jpg"/></a></li>
+            <li class="col-md-3"><a href="https://www.animafac.net/actualites/portait-gabrielle-developpeuse-intervenante-ladaweek/"><img class="img-responsive" src="img_home/logos/animafac.jpg"/></a></li>
+            <li class="col-md-3"><a href="http://www.cultureaccess.com/2015/10/l-adaweek-s-acheve-aujourd-hui-notre-top-3-des-femmes-scientifiques-d-exception.html"><img class="img-responsive" src="img_home/logos/cultureaccess.jpg"/></a></li>
+            <li class="col-md-3"><a href="http://www.atelier.net/trends/articles/femmes-nouvelles-technologies-importance-de-education_438084"><img class="img-responsive" src="img_home/logos/atelier.jpg"/></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- END PRESS -->
+
+  <!-- EQUIPE -->
+  <div class="equipe" id="equipe">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <h1>L'EQUIPE</h1>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img src="img_home/equipe/charlottedebroglie.jpg" class="img-circle">
+          <blockquote>Charlotte de Broglie</blockquote>
+          <footer>Coordinatrice du Projet</br>Chef de projet @ La Fonderie, Agence Numérique d'Île-de-France</footer>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img src="img_home/equipe/ozannetauvel.jpg" class="img-circle">
+          <blockquote>Ozanne Tauvel-Mocquet</blockquote>
+          <footer>Coordinatrice Événements et Médias</br>Stagiaire @ Club Jade Think Tank</footer>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img src="img_home/equipe/katalinanadasi.jpg" class="img-circle" id="resize_img">
+          <blockquote>Katalina Nadasi</blockquote>
+          <footer>Web designer et developpeur frontend</footer>
+        </div>
+        <!-- <div class="col-sm-6 col-md-3">
+          <img src="img/equipe/kat.jpg" class="img-circle">
+          <blockquote>Kat</blockquote>
+          <footer>Web designer et developpeur</footer>
+        </div> -->
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid redBanner">
+  </div>
+
+  <!-- END EQUIPE -->
+
+  <!-- PARTENAIRES -->
+  <div class="partenaires" id="partenaires">
+    <div class="container">
+      <h1>PARTENAIRES</h1>
+
+      <div class="col-md-12">
+        <ul class="list-inline">
+          <li class="col-md-2"><img class="img-responsive" src="img_home/partenaires/fonderie.jpg"/></li>
+          <li class="col-md-2"><img class="img-responsive" src="img_home/partenaires/wikimedia.jpg"/></li>
+          <li class="col-md-2"><img class="img-responsive" src="img_home/partenaires/wax.jpg"/></li>
+          <li class="col-md-2"><img class="img-responsive" src="img_home/partenaires/usbek.jpg"/></li>
+          <li class="col-md-2"><img class="img-responsive" src="img_home/partenaires/socialbuilder.jpg"/></li>
+          <li class="col-md-2"><img class="img-responsive" src="img_home/partenaires/femmesingenieurs.jpg"/></li>
+        </ul>
+      </div>
+      <div class="col-md-12">
+        <ul class="list-inline partenaires-logo">
+          <li class="col-md-2"><img class="img-responsive" src="img_home/partenaires/42.jpg"/></li>
+          <li class="col-md-2"><img class="img-responsive" src="img_home/partenaires/femmessciences.jpg"/></li>
+          <li class="col-md-2"><img class="img-responsive" src="img_home/partenaires/criteo.jpg"/></li>
+          <li class="col-md-2"><img class="img-responsive" src="img_home/partenaires/capdigital.jpg"/></li>
+          <li class="col-md-2"><img class="img-responsive" src="img_home/partenaires/gamelier.jpg"/></li>
+          <li class="col-md-2"><img class="img-responsive" src="img_home/partenaires/hubertine.jpg"/></li>
+        </ul>
+      </div>
+
+      </div>
+    </div>
+  </div>
+<!--
+END PARTENAIRES -->
+<div class="container-fluid redBanner">
 </div>
-<div id="footer" style="clear:both;">
-<li><a href="http://blog.adaweek.fr">News</a></li>
+
+<!-- CONTACT -->
+<div class="contacter" id="contact">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Contact</h1>
+        <h3>Vous souhaitez devenir partenaires ?</br>Obtenir plus d'informations sur l'événement ?</br>Ou simplement nous faire coucou ?</h3>
+        <a href="mailto:contact@adaweek.fr" target="blank"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+  </div>
 </div>
+<!-- END CONTACT -->
+
+<!-- FOOTER -->
+
+<div class="footer">
+  <div class="container">
+
+  <div class="row">
+    <div class="col-lg-12 col-md-12">
+    <h5>Réalisation&nbsp;&nbsp;<a href="katalinanadasi.com" target="_blank">Katalina Nadasi</a><h5>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+<div class="ending">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        Adaweek / Tous droits réservés
+      </div>
+    </div>
+  </div>
 </div>
 
 
+<!-- END FOOTER -->
 
 
+<!-- jquery and boostrap for js -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+ <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 </html>

@@ -3,15 +3,16 @@
 
 body {
 	font-family: 'Lato', sans-serif;
+	/*font-family: sans-serif;*/
 /*	font-family: 'Bungee Inline', cursive;*/
 }
 
 /*HEADER*/
 .container-fluid {
-	background: #CA1A17;
+	background: white;
 }
 
-.countdown {
+/*.countdown {
 	color: white;
 	float: left;
 	left: 70px;
@@ -19,22 +20,22 @@ body {
 	font-size: 35px;
 	font-family: 'Six Caps', sans-serif;
 	margin-top: 30px;
-}
+}*/
 
-.menu{
+.banner{
+	margin-left: 15px;
+	margin-top: 10px;
 	margin-right: 5px;
 	font-size: 19px;
 	vertical-align: center;
-	font-family: 'PT Sans', sans-serif;
-  	font-size: 19px;
 }
 	a {
-		color: white !important;
+		color: #CA1A17 !important;
 		text-decoration: none;
 	}
 
 .nav a:hover {
-  		color: #CA1A17 !important;
+  		color: black !important;
   		background-color: white !important;
   		border-radius: 1px;
 	}
@@ -49,10 +50,11 @@ body {
 	height: auto;
 }
 
-.btn-trans{
+/*.btn-trans{
 	text-align: center;
 	text-decoration: none;
-}
+	border: 1px;
+}*/
 
 .upper {
 	text-transform: uppercase;
@@ -68,15 +70,19 @@ body {
 }
 
 .socials {
-	color: black;
 	float: right;
 	position: relative;
 	margin-bottom: 15px;
 	margin-right: 15px;
 }
 
+.border {
+	clear:both;
+	border-bottom: 1px solid #CA1A17;
+}
+
 .fa {
-	color: white;
+	color: #CA1A17;
 }
 
 .socials .btn {
@@ -255,7 +261,7 @@ body {
 
 #resize_img {
 	width: 120px;
-	height: 130px;
+	height: 130;
 }
 
 /*END EQUIPE*/
