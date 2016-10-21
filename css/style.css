@@ -327,6 +327,9 @@ body {
 	margin-top: 15px;
 }
 
+.bloc_padding{
+	margin: 0 20px 0 25px;
+}
 
 /*END PARTENAIRES*/
 
@@ -348,6 +351,13 @@ body {
 
 .contacter .fa {
 	color: #CA1A17;
+}
+
+.contact_bloc_padding{
+	margin: 25px;
+	line-height: 35px;
+	font-size: 18px;
+	color: black;
 }
 
 /*END CONTACT*/
