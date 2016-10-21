@@ -37,7 +37,7 @@ body {
 		height: 85px;
 		background-color: #CA1A17;
 	}
-	
+
 .nav a:hover {
   		color: black !important;
   		background-color: white !important;
@@ -211,7 +211,7 @@ body {
 /*END MARRAINE*/
 
 /*PROGRAMME*/
-.schedule {
+/*.schedule {
 	background-color: white;
 	padding: 45px;
 }
@@ -220,16 +220,16 @@ body {
 	color: #CA1A17;
 	text-align: center;
 	margin: 45px 0 45px 0;
-}
+}*/
 
-.table-hover{
+/*.table-hover{
 	background-color: #D0D0D2 !important;
 }
 
 .tableGrey {
 	color: white;
 	background-color: #6F7074;
-}
+}*/
 
 /*EDITION 2015*/
 
@@ -246,7 +246,7 @@ body {
 .press h1 {
 	font-size: 2,5rem;
 	padding-bottom: 5px;
-	color: white;
+	color: black;
 }
 
 .press p {
@@ -287,18 +287,14 @@ body {
 	text-align: center;
 	font-size: 2,5rem;
 	padding: 30px 0 30px 0;
-	color: #CA1A17;
+	color: black;
 }
 
 .equipe img {
-	width: 120px;
-	height: 120px;
+	width: 160px;
+	height: 159px;
 }
 
-#resize_img {
-	width: 120px;
-	height: 130;
-}
 
 /*END EQUIPE*/
 
@@ -310,7 +306,7 @@ body {
 }
 
 .partenaires h1 {
-	color: #CA1A17;
+	color: white;
 	font-size: 2,5rem;
 	padding-bottom: 25px;
 }
