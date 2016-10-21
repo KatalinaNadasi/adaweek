@@ -163,6 +163,16 @@ body {
 }
 
 .text_style p {
+	text-align: center;
+	margin-left: 15px;
+	margin-top: 15px;
+	font-size: 18px;
+}
+
+.text_style a {
+	text-align: center;
+	margin-left: 15px;
+	margin-top: 15px;
 	font-size: 18px;
 }
 
