@@ -322,7 +322,8 @@ body {
 
 /*PARTENAIRES*/
 .partenaires {
-	padding: 30px 30px 90px 40px;
+
+	margin-left: 25px;
 	text-align: center;
 	background-color: white;
 }
