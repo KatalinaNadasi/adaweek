@@ -167,7 +167,7 @@ body {
 }
 
 /*MARRAINE*/
-.marraine {
+.marraine{
   padding: 50px 0;
   text-align: center;
 }
@@ -211,6 +211,10 @@ body {
 /*END MARRAINE*/
 
 /*PROGRAMME*/
+.programme{
+  padding: 50px 0;
+  text-align: center;
+}
 /*.schedule {
 	background-color: white;
 	padding: 45px;
