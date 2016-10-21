@@ -281,6 +281,14 @@ body {
 /*END PRESS COVERAGE*/
 
 /*EQUIPE*/
+.team {
+	padding: 100px 0 100px;;
+	text-align: center;
+}
+
+.team2{
+	padding-bottom: 25px;
+}
 
 .equipe {
 	background-color: white;
