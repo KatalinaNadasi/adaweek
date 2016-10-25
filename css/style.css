@@ -35,8 +35,18 @@ body {
 #navbar a:hover {
   color: #ffffff !important;
   background-color: black !important;
+	}
 }
+
+.navbar-nav {
+	 width: 100%;
+	 text-align: center;
+ }
+.navbar-nav li {
+		 float: none;
+		 display: inline-block;
 }
+
 
 /*end navbar*/
 
@@ -117,6 +127,7 @@ body {
 
 .btn-sample:hover{
   	width: 150px;
+		background-color: black;
 }
 
 .date {
