@@ -7,9 +7,7 @@ body {
 }
 
 /*HEADER*/
-.container-fluid {
-	background: white;
-}
+
 
 /*.countdown {
 	color: white;
@@ -21,9 +19,29 @@ body {
 	margin-top: 30px;
 }*/
 
+/*navbar*/
+
+	#navbar {
+	color: white;
+  background-color: #CA1A17 !important; /*gris*/
+  border-bottom: 1px solid #CA1A17;
+  font-family: 'Lato', sans-serif;
+}
+
+#navbar a {
+  color: white !important; /*creme*/
+}
+
+#navbar a:hover {
+  color: #ffffff !important;
+  background-color: black !important;
+}
+}
+
+/*end navbar*/
+
 .banner{
 	margin-left: 15px;
-	margin-top: 10px;
 	margin-right: 5px;
 	font-size: 19px;
 	vertical-align: center;
@@ -34,7 +52,7 @@ body {
 	}
 
 	.redBanner {
-		height: 85px;
+		height: 1px;
 		background-color: #CA1A17;
 	}
 
@@ -105,11 +123,13 @@ body {
 	background-color: #CA1A17;
 	height: auto;
 	width: 230px;
+	margin-top: 50px;
 }
 
 /*END HEADER*/
 
 /*WHAT*/
+
 
 .bloc {
   padding: 45px 0 50px;
@@ -121,7 +141,7 @@ body {
 }
 
 .bloc h3{
-	font-size: 36px;
+	font-size: 26px;
 	color: #CA1A17;
 	font-weight: bold;
 }
@@ -254,7 +274,7 @@ body {
 .press {
 	padding: 30px 30px 90px 40px;;
 	text-align: center;
-	background-color: #CA1A17;
+	background-color: white;
 }
 
 .press h1 {
