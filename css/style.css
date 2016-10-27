@@ -8,17 +8,6 @@ body {
 
 /*HEADER*/
 
-
-/*.countdown {
-	color: white;
-	float: left;
-	left: 70px;
-	position: relative;
-	font-size: 35px;
-	font-family: 'Six Caps', sans-serif;
-	margin-top: 30px;
-}*/
-
 /*navbar*/
 
 	#navbar {
@@ -79,15 +68,15 @@ body {
 	margin-top: 20px;
 	margin-bottom: 15px;
 	color:white;
-	width: 300px;
+	width: 220px;
 	height: auto;
 }
 
-/*.btn-trans{
+.btn-trans{
 	text-align: center;
 	text-decoration: none;
 	border: 1px;
-}*/
+}
 
 .upper {
 	text-transform: uppercase;
@@ -122,6 +111,7 @@ body {
 	background-color: white !important;
 	color: #CA1A17 !important;
 	border-color: #CA1A17 !important;
+	margin-top: 45px;
 }
 
 
@@ -133,8 +123,8 @@ body {
 .date {
 	background-color: #CA1A17;
 	height: auto;
-	width: 230px;
-	margin-top: 50px;
+	width: 180px;
+	margin-top: 40px;
 }
 
 /*END HEADER*/
@@ -145,6 +135,10 @@ body {
 .bloc {
   padding: 45px 0 50px;
   text-align: center;
+}
+
+.top5{
+	margin-top: 5px;
 }
 
 .bloc h1{
@@ -226,7 +220,7 @@ body {
 
 .marraine p {
 	color: black;
-  padding: 0 15px 0 15px;
+  /*padding: 0 15px 0 15px;*/
   font-size: 1.5rem;
 }
 
@@ -238,8 +232,8 @@ body {
   text-decoration: none;
 }
 
-.marraineImg {
-  width:100%;
+.marraine img {
+  width:85%;
   height:auto;
   max-width: 100%;
   box-shadow: 2px 2px 3px grey;
@@ -303,7 +297,7 @@ body {
 .press .press-logo li img {
 	opacity: 0.3;
 	padding-bottom: 25px;
-	width: 250px;
+	width: 150px;
 	height: auto;
 }
 
@@ -325,6 +319,10 @@ body {
 .team {
 	padding: 100px 0 100px;;
 	text-align: center;
+}
+
+.team a {
+	color: #CA1A17;
 }
 
 .team2{
@@ -351,10 +349,10 @@ body {
 
 /*END EQUIPE*/
 
+
+
 /*PARTENAIRES*/
 .partenaires {
-
-	margin-left: 25px;
 	text-align: center;
 	background-color: white;
 }
@@ -367,6 +365,8 @@ body {
 
 .partenaires-logo {
 	margin-top: 15px;
+	width: 100%;
+	height: auto;
 }
 
 .bloc_padding{
@@ -409,7 +409,7 @@ body {
 .footer {
   background-color: #CA1A17;
   color: white;
-  padding: 30px 0;
+  padding: 13px 0;
   text-align: center;
 }
 
@@ -424,3 +424,37 @@ body {
 }
 
 /*END FOOTER*/
+
+@media (min-width: 992px){
+	.partenaires {
+		margin-left: 125px;
+	}
+	.title {
+		transform: translateX(-50px);
+	}
+}
+
+@media (max-width: 480px) {
+  .container{
+    width: 100%;
+  }
+
+	.img {
+		width: 15%;
+	}
+
+}
+
+@media (max-width: 992px) {
+
+  .header {
+    text-align: center;
+    padding-top: 20%;
+  }
+
+	.marraine img {
+		width:25%;
+		height:50%;
+		box-shadow: 2px 2px 3px grey;
+	}
+}
